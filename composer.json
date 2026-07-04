@@ -1,0 +1,22 @@
+{
+  "name": "lu-academic-hub",
+  "version": "1.0.0",
+  "description": "Comprehensive academic support platform for past papers and learning materials",
+  "type": "project",
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LuAcademicHub\\": "src/"
+    },
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "scripts": {
+    "setup": "php -r \"include 'config/setup.sql';\"",
+    "test": "phpunit",
+    "migrate": "php migrate.php"
+  }
+}
