@@ -1,0 +1,50 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+node_modules/
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Sensitive Files
+config/database.php
+config/smtp.php
+config/.env
+
+# Uploads
+uploads/papers/*
+uploads/research/*
+uploads/profile/*
+!uploads/papers/.gitkeep
+!uploads/research/.gitkeep
+!uploads/profile/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Cache
+cache/*
+!cache/.gitkeep
+
+# Backups
+backups/*
+!backups/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary
+*.tmp
+*.temp
+*.log
